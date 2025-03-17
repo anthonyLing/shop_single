@@ -78,3 +78,11 @@
                     "class": "o.s.b.f.support.DisposableBeanAdapter",
                     "message": "Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException" }
                     
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:42:48.365",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    

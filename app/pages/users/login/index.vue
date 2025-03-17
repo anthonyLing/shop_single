@@ -11,7 +11,7 @@
 					<div class="item">
 						<div class="acea-row row-middle">
 							<image src="/static/images/phone_1.png"  style="width: 24rpx; height: 34rpx;"></image>
-							<input type="text" class="texts" placeholder="输入手机号码" v-model="account" required/>
+							<input type="text" class="texts" placeholder="输入工号" v-model="account" required/>
 						</div>
 					</div>
 					<div class="item">
@@ -278,12 +278,12 @@
 			},
 			async loginMobile() {
 				let that = this;
-				if (!that.account) return that.$util.Tips({
+				/*if (!that.account) return that.$util.Tips({
 					title: '请填写手机号码'
 				});
 				if (!/^1(3|4|5|7|8|9|6)\d{9}$/i.test(that.account)) return that.$util.Tips({
 					title: '请输入正确的手机号码'
-				});
+				});*/
 				if (!that.captcha) return that.$util.Tips({
 					title: '请填写验证码'
 				});
