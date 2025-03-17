@@ -14,7 +14,7 @@
 									请点击登录
 								</view>
 								<view class="name" v-if="uid">
-									{{userInfo.nickname}}
+									{{userInfo.realName}}
 									<view class="vip" v-if="userInfo.vip">
 										<image :src="userInfo.vipIcon" alt="">
 											<view style="margin-left: 10rpx;" class="vip-txt">{{userInfo.vipName || ''}}
@@ -111,7 +111,7 @@
 							<!-- #endif -->
 						</view>
 					</view>
-					<image src="/static/images/support.png" alt="" class='support'>
+					<!--<image src="/static/images/support.png" alt="" class='support'>-->
 					<view class="uni-p-b-98"></view>
 				</view>
 

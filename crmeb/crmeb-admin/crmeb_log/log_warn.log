@@ -1,0 +1,80 @@
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:35:06.786",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:35:18.270",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.s.b.f.support.DisposableBeanAdapter",
+                    "message": "Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:38:59.633",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:39:11.769",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.s.b.f.support.DisposableBeanAdapter",
+                    "message": "Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:40:09.938",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:40:20.776",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.s.b.f.support.DisposableBeanAdapter",
+                    "message": "Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:40:56.382",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:41:06.628",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.s.b.f.support.DisposableBeanAdapter",
+                    "message": "Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:41:37.648",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:41:47.535",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.s.b.f.support.DisposableBeanAdapter",
+                    "message": "Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException" }
+                    

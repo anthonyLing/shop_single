@@ -1,0 +1,365 @@
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:35:18.266",
+                    "level": "ERROR",
+                    "thread": "main",
+                    "class": "o.s.b.d.LoggingFailureAnalysisReporter",
+                    "message": "
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:35:18.321",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-1",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "BrokerageFrozenTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/UserBrokerageRecordDao.java (best guess)
+### The error may involve com.zbkj.service.dao.UserBrokerageRecordDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:35:18.322",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-5",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderAutoCompleteTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/StoreOrderDao.java (best guess)
+### The error may involve com.zbkj.service.dao.StoreOrderDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:35:18.323",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-3",
+                    "class": "c.z.a.task.integral.IntegralFrozenTask",
+                    "message": "IntegralFrozenTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/UserIntegralRecordDao.java (best guess)
+### The error may involve com.zbkj.service.dao.UserIntegralRecordDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:35:18.324",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-4",
+                    "class": "c.z.admin.task.coupon.CouponOverdueTask",
+                    "message": "CouponOverdueTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/StoreCouponUserDao.java (best guess)
+### The error may involve com.zbkj.service.dao.StoreCouponUserDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:39:11.769",
+                    "level": "ERROR",
+                    "thread": "main",
+                    "class": "o.s.b.d.LoggingFailureAnalysisReporter",
+                    "message": "
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:39:11.849",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-2",
+                    "class": "c.z.admin.task.coupon.CouponOverdueTask",
+                    "message": "CouponOverdueTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/StoreCouponUserDao.java (best guess)
+### The error may involve com.zbkj.service.dao.StoreCouponUserDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:39:11.850",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-1",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "BrokerageFrozenTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/UserBrokerageRecordDao.java (best guess)
+### The error may involve com.zbkj.service.dao.UserBrokerageRecordDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:39:11.851",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-3",
+                    "class": "c.z.a.task.integral.IntegralFrozenTask",
+                    "message": "IntegralFrozenTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/UserIntegralRecordDao.java (best guess)
+### The error may involve com.zbkj.service.dao.UserIntegralRecordDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:39:11.852",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-4",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderAutoCompleteTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/StoreOrderDao.java (best guess)
+### The error may involve com.zbkj.service.dao.StoreOrderDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:40:20.771",
+                    "level": "ERROR",
+                    "thread": "main",
+                    "class": "o.s.b.d.LoggingFailureAnalysisReporter",
+                    "message": "
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:40:20.827",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-1",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "BrokerageFrozenTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/UserBrokerageRecordDao.java (best guess)
+### The error may involve com.zbkj.service.dao.UserBrokerageRecordDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:40:20.828",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-3",
+                    "class": "c.z.admin.task.coupon.CouponOverdueTask",
+                    "message": "CouponOverdueTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/StoreCouponUserDao.java (best guess)
+### The error may involve com.zbkj.service.dao.StoreCouponUserDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:40:20.829",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-2",
+                    "class": "c.z.a.task.integral.IntegralFrozenTask",
+                    "message": "IntegralFrozenTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/UserIntegralRecordDao.java (best guess)
+### The error may involve com.zbkj.service.dao.UserIntegralRecordDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:40:20.829",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-5",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderAutoCompleteTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/StoreOrderDao.java (best guess)
+### The error may involve com.zbkj.service.dao.StoreOrderDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:41:06.622",
+                    "level": "ERROR",
+                    "thread": "main",
+                    "class": "o.s.b.d.LoggingFailureAnalysisReporter",
+                    "message": "
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:41:06.716",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-3",
+                    "class": "c.z.a.task.integral.IntegralFrozenTask",
+                    "message": "IntegralFrozenTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/UserIntegralRecordDao.java (best guess)
+### The error may involve com.zbkj.service.dao.UserIntegralRecordDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:41:06.717",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-1",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "BrokerageFrozenTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/UserBrokerageRecordDao.java (best guess)
+### The error may involve com.zbkj.service.dao.UserBrokerageRecordDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:41:06.718",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-4",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderAutoCompleteTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/StoreOrderDao.java (best guess)
+### The error may involve com.zbkj.service.dao.StoreOrderDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:41:06.719",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-2",
+                    "class": "c.z.admin.task.coupon.CouponOverdueTask",
+                    "message": "CouponOverdueTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/StoreCouponUserDao.java (best guess)
+### The error may involve com.zbkj.service.dao.StoreCouponUserDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:41:47.531",
+                    "level": "ERROR",
+                    "thread": "main",
+                    "class": "o.s.b.d.LoggingFailureAnalysisReporter",
+                    "message": "
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:41:47.608",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-1",
+                    "class": "c.z.admin.task.coupon.CouponOverdueTask",
+                    "message": "CouponOverdueTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/StoreCouponUserDao.java (best guess)
+### The error may involve com.zbkj.service.dao.StoreCouponUserDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:41:47.609",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-7",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderAutoCompleteTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/StoreOrderDao.java (best guess)
+### The error may involve com.zbkj.service.dao.StoreOrderDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:41:47.610",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-3",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "BrokerageFrozenTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/UserBrokerageRecordDao.java (best guess)
+### The error may involve com.zbkj.service.dao.UserBrokerageRecordDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-17 14:41:47.611",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-2",
+                    "class": "c.z.a.task.integral.IntegralFrozenTask",
+                    "message": "IntegralFrozenTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/UserIntegralRecordDao.java (best guess)
+### The error may involve com.zbkj.service.dao.UserIntegralRecordDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    

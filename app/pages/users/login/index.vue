@@ -48,10 +48,10 @@
 			</div>
 			<div class="logon" @click="loginMobile" v-if="current !== 0">登录</div>
 			<div class="logon" @click="submit" v-if="current === 0">登录</div>
-			<div class="tips">
+			<!-- <div class="tips">
 				<div v-if="current==0" @click="current = 1">快速登录</div>
 				<div v-if="current==1" @click="current = 0">账号登录</div>
-			</div>
+			</div>-->
 		</div>
 		<div class="bottom"></div>
 	</div>
@@ -90,7 +90,7 @@
 		data: function() {
 			return {
 				navList: ["快速登录", "账号登录"],
-				current: 1,
+				current: 0,
 				account: "",
 				password: "",
 				captcha: "",

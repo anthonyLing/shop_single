@@ -30,10 +30,10 @@ public class UserEditRequest implements Serializable {
 
     private static final long serialVersionUID=1L;
 
-    @ApiModelProperty(value = "用户昵称")
-    @NotBlank(message = "请填写用户昵称")
-    @Length(max = 255, message = "用户昵称不能超过255个字符")
-    private String nickname;
+    @ApiModelProperty(value = "用户姓名")
+    @NotBlank(message = "请填写用户姓名")
+    @Length(max = 255, message = "用户姓名不能超过255个字符")
+    private String realName;
 
     @ApiModelProperty(value = "用户头像")
     @NotBlank(message = "请上传用户头像")

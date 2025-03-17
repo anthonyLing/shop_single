@@ -1731,7 +1731,7 @@ public class UserServiceImpl extends ServiceImpl<UserDao, User> implements UserS
     public Boolean editUser(UserEditRequest request) {
         User user = getInfo();
         user.setAvatar(systemAttachmentService.clearPrefix(request.getAvatar()));
-        user.setNickname(request.getNickname());
+        user.setRealName(request.getRealName());
         return updateById(user);
     }
 

@@ -11,13 +11,15 @@
 						</view>
 					</view>
 					<view class='item acea-row row-between-wrapper'>
-						<view>昵称</view>
-						<view class='input'><input type='text' name='nickname' :value='userInfo.nickname'></input>
+						<view>姓名</view>
+						<view class='input'><input type='text' name='realName' :value='userInfo.realName'></input>
 						</view>
 					</view>
 					<view class='item acea-row row-between-wrapper'>
 						<view>手机号码</view>
-						<navigator url="/pages/users/app_login/index" hover-class="none" class="input"
+						<view class='input'><input type='number' name='phone' :value='userInfo.phone' ></input>
+						</view>
+						<!-- <navigator url="/pages/users/app_login/index" hover-class="none" class="input"
 							v-if="!userInfo.phone">
 							点击绑定手机号<text class="iconfont icon-xiangyou"></text>
 						</navigator>
@@ -27,7 +29,7 @@
 									class='id'></input>
 								<text class='iconfont icon-xiangyou'></text>
 							</view>
-						</navigator>
+						</navigator>-->
 						<!-- <navigator url="/pages/users/user_phone/index" hover-class="none" class="input" v-if="!memberInfo.phone">
 							点击绑定手机号<text class="iconfont icon-xiangyou"></text>
 						</navigator>
@@ -177,9 +179,14 @@
 			formSubmit: function(e) {
 				let that = this,
 					value = e.detail.value
-				if (!value.nickname) return that.$util.Tips({
+				if (!value.realName) return that.$util.Tips({
 					title: '用户姓名不能为空'
 				});
+				var regPhone = (/^(13[0-9]|14[1579]|15[0-3,5-9]|16[6]|17[0123456789]|18[0-9]|19[89])\d{8}$/); //手机号码
+				if (!regPhone.test(value.phone)) return that.$util.Tips({
+					title: '请输入正确的手机号码！'
+				});
+				
 				value.avatar = that.newAvatar?that.newAvatar:that.userInfo.avatar;
 				userEdit(value).then(res => {
 					that.$store.commit("changInfo", {
