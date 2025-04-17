@@ -54,23 +54,6 @@
             </span>
           </el-form-item>
 
-          <el-form-item prop="code" class="captcha">
-            <div class="captcha">
-              <el-input
-                ref="username"
-                v-model="loginForm.code"
-                style="width: 218px;"
-                prefix-icon="el-icon-message"
-                placeholder="验证码"
-                name="username"
-                type="text"
-                tabindex="3"
-                autocomplete="on"
-              />
-              <div class="imgs" @click="getCaptcha()"><img :src="captchatImg"></div>
-            </div>
-          </el-form-item>
-
           <div class="acea-row">
             <el-button
               :loading="loading"
@@ -142,8 +125,7 @@ export default {
       },
       loginRules: {
         account: [{ required: true, trigger: 'blur', message: '请输入用户名' }], // validator: validateUsername
-        pwd: [{ required: true, trigger: 'blur', message: '请输入密码' }],
-        code: [{ required: true, message: '请输入正确的验证码', trigger: 'blur' }]
+        pwd: [{ required: true, trigger: 'blur', message: '请输入密码' }]
       },
       passwordType: 'password',
       capsTooltip: false,

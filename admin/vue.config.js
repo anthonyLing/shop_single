@@ -36,6 +36,16 @@ module.exports = {
     overlay: {
       warnings: false,
       errors: true
+    },
+    proxy: {
+      '/api': { // 匹配访问路径中含有 '/api' 的路径
+        target: 'http://192.168.4.55:8080/', // 测试地址、目标地址
+        changeOrigin: true,
+        ws: true, // 是否开启 webSocket 代理
+        pathRewrite: { // 请求路径重写
+          '^/api': '',   //重写请求路径
+        },
+      }
     }
   },
   configureWebpack: {
