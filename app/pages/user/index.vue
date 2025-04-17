@@ -30,7 +30,7 @@
 								<view class="phone" v-if="!userInfo.phone && isLogin" @tap="bindPhone">绑定手机号</view>
 							</view>
 						</view>
-						<view class="num-wrapper">
+						<!--<view class="num-wrapper">
 							<view class="num-item" @click="goMenuPage('/pages/users/user_money/index')">
 								<text
 									class="num">{{userInfo.nowMoney && uid ?Number(userInfo.nowMoney).toFixed(2):0}}</text>
@@ -48,7 +48,7 @@
 								<text class="num">{{userInfo.collectCount && uid ? userInfo.collectCount : 0}}</text>
 								<view class="txt">收藏</view>
 							</view>
-						</view>
+						</view> -->
 						<!-- <view class="sign" @click="goSignIn">签到</view> -->
 					</view>
 					<view class="order-wrapper">
@@ -75,7 +75,7 @@
 				</view>
 				<view class="contenBox">
 					<!-- 轮播 -->
-					<view class="slider-wrapper" v-if="imgUrls.length>0">
+					<!-- <view class="slider-wrapper" v-if="imgUrls.length>0">
 						<swiper indicator-dots="true" :autoplay="autoplay" :circular="circular" :interval="interval"
 							:duration="duration" indicator-color="rgba(255,255,255,0.6)" indicator-active-color="#fff">
 							<block v-for="(item,index) in imgUrls" :key="index">
@@ -84,7 +84,7 @@
 								</swiper-item>
 							</block>
 						</swiper>
-					</view>
+					</view>-->
 
 					<!-- 会员菜单 -->
 					<view class="user-menus" style="margin-top: 20rpx;">
@@ -98,16 +98,16 @@
 								</navigator>
 							</block>
 							<!-- #ifndef MP -->
-							<view class="item" @click="kefuClick">
+							<!-- <view class="item" @click="kefuClick">
 								<image :src="servicePic"></image>
 								<text>联系客服</text>
-							</view>
+							</view>-->
 							<!-- #endif -->
 							<!-- #ifdef MP -->
-							<button class="item" open-type='contact' hover-class='none'>
+							<!-- <button class="item" open-type='contact' hover-class='none'>
 								<image :src="servicePic"></image>
 								<text>联系客服</text>
-							</button>
+							</button>-->
 							<!-- #endif -->
 						</view>
 					</view>
@@ -375,7 +375,7 @@
 		top: 0;
 		width:100%;
 		height: 420rpx;
-		background-image: url('~@/static/images/user_bg.png');
+		//background-image: url('~@/static/images/user_bg.png');
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
@@ -413,7 +413,7 @@
 		}
 
 		.head {
-			background: linear-gradient(360deg, rgba(255, 121, 49, 0) 0%, rgba(248, 74, 29, 0.82) 39%, #E93323 100%);
+			background: linear-gradient(180deg, #008000 0%, #F5F5F5 100%, #751A12 100%);
 			// padding: 0 30rpx;
 
 			.user-card {
