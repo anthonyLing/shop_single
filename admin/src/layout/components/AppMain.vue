@@ -12,7 +12,7 @@
   </section>
 </template>
 
-<script>
+<!--script>
 export default {
   name: 'AppMain',
   data () {
@@ -37,7 +37,7 @@ export default {
           blankTarget: true
         }
       ],
-      copyright: 'Copyright © 2020 西安众邦网络科技有限公司'
+      //copyright: 'Copyright © 2020 西安众邦网络科技有限公司'
     }
   },
   computed: {
@@ -49,7 +49,7 @@ export default {
     }
   }
 }
-</script>
+</script>-->
 
 <style lang="scss" scoped>
   .footers{
