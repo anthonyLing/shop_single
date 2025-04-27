@@ -48,6 +48,7 @@
 			</div>
 			<div class="logon" @click="loginMobile" v-if="current !== 0">登录</div>
 			<div class="logon" @click="submit" v-if="current === 0">登录</div>
+			<div class="logon" @click="register" v-if="current === 0">注册</div>
 			<!-- <div class="tips">
 				<div v-if="current==0" @click="current = 1">快速登录</div>
 				<div v-if="current==1" @click="current = 0">账号登录</div>
@@ -312,9 +313,9 @@
 			async register() {
 				let that = this;
 				if (!that.account) return that.$util.Tips({
-					title: '请填写手机号码'
+					title: '请填写工号'
 				});
-				if (!/^1(3|4|5|7|8|9|6)\d{9}$/i.test(that.account)) return that.$util.Tips({
+				/*if (!/^1(3|4|5|7|8|9|6)\d{9}$/i.test(that.account)) return that.$util.Tips({
 					title: '请输入正确的手机号码'
 				});
 				if (!that.captcha) return that.$util.Tips({
@@ -322,24 +323,23 @@
 				});
 				if (!/^[\w\d]+$/i.test(that.captcha)) return that.$util.Tips({
 					title: '请输入正确的验证码'
-				});
+				});*/
 				if (!that.password) return that.$util.Tips({
 					title: '请填写密码'
 				});
-				if (!/^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,16}$/i.test(that.password)) return that.$util.Tips({
+				/*if (!/^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,16}$/i.test(that.password)) return that.$util.Tips({
 					title: '您输入的密码过于简单'
-				});
+				});*/
 				register({
 						account: that.account,
-						captcha: that.captcha,
 						password: that.password,
 						spread: that.$Cache.get("spread")
 					})
 					.then(res => {
-						that.$util.Tips({
-							title: res
+						that.$util.Tips({title:res.message});
+						uni.reLaunch({
+							url: '/pages/users/login'
 						});
-						that.formItem = 1;
 					})
 					.catch(res => {
 						that.$util.Tips({
@@ -591,7 +591,7 @@
 				justify-content: center;
 				width: 100%;
 				height: 86rpx;
-				margin-top: 80rpx;
+				margin-top: 20rpx;
 				background-color: $theme-color;
 				border-radius: 120rpx;
 				color: #FFFFFF;

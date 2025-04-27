@@ -17,6 +17,17 @@
 							placeholder-class='placeholder' maxlength="11"></input>
 					</view>
 					<view class='item acea-row row-between-wrapper relative'>
+						<view class='name'>送货地址</view>
+						<view class="address">
+							<picker class='num' @change="bindAddresChange" :value="index" :range="addressArray">
+							    <view class="picker acea-row row-between-wrapper">
+							      <view class='address'>{{addressArray[index]}}</view>
+							      <view class='iconfont icon-xiangyou abs_right'></view>
+							    </view>
+							</picker>
+						</view>
+					</view>
+					<!--<view class='item acea-row row-between-wrapper relative'>
 						<view class='name'>所在地区</view>
 						<view class="address">
 							<picker mode="multiSelector" @change="bindRegionChange"
@@ -33,7 +44,7 @@
 						<input type='text' placeholder='请填写具体地址' placeholder-style="color:#ccc;" name='detail' placeholder-class='placeholder'
 							v-model='userAddress.detail' maxlength="18"></input>
 							<view class='iconfont icon-dizhi font-color abs_right' @tap="chooseLocation"></view>
-					</view>
+					</view>-->
 				</view>
 				<view class='default acea-row row-middle borRadius14'>
 					<checkbox-group @change='ChangeIsDefault'>
@@ -102,6 +113,9 @@
 				multiArray: [],
 				multiIndex: [0, 0, 0],
 				cityId: 0,
+				address: '',
+				addressArray: ['安徽省马鞍山市第八高级中学','安徽省马鞍山市第二中学'],
+				index: 0,
 				defaultRegion: ['广东省', '广州市', '番禺区'],
 				defaultRegionCode: '440113',
 				bargain: false, //是否是砍价
@@ -436,17 +450,12 @@
 				if (that.region == '省-市-区') return that.$util.Tips({
 					title: '请选择所在地区'
 				});
-				if (!value.detail) return that.$util.Tips({
+				/*if (!value.detail) return that.$util.Tips({
 					title: '请填写详细地址'
-				});
+				});*/
 				value.id = that.id;
 				let regionArray = that.region;
-				value.address = {
-					province: regionArray[0],
-					city: regionArray[1],
-					district: regionArray[2],
-					cityId: that.cityId,
-				};
+				value.address = that.address;
 				value.isDefault = that.userAddress.isDefault;
 
 				uni.showLoading({
@@ -488,6 +497,11 @@
 			},
 			ChangeIsDefault: function(e) {
 				this.$set(this.userAddress, 'isDefault', !this.userAddress.isDefault);
+			},
+			bindAddresChange: function (e) {
+					this.$set(this,'index',e.detail.value);
+					this.$set(this,'address',this.addressArray[e.detail.value]);
+					
 			}
 		}
 	}
@@ -516,7 +530,7 @@
 
 	.addAddress .list .item .address {
 		flex: 1;
-		margin-left: 50rpx;
+		margin-left: 32rpx;
 	}
 
 	.addAddress .list .item input {
@@ -530,7 +544,7 @@
 	}
 
 	.addAddress .list .item picker .picker {
-		width: 410rpx;
+		width: 475rpx;
 		font-size: 30rpx;
 	}
 

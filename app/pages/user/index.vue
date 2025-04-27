@@ -27,7 +27,7 @@
 										<image src="/static/images/edit.png" mode=""></image>
 									</view>
 								</view>
-								<view class="phone" v-if="!userInfo.phone && isLogin" @tap="bindPhone">绑定手机号</view>
+								<!--<view class="phone" v-if="!userInfo.phone && isLogin" @tap="bindPhone">绑定手机号</view>-->
 							</view>
 						</view>
 						<!--<view class="num-wrapper">
@@ -413,7 +413,7 @@
 		}
 
 		.head {
-			background: linear-gradient(180deg, #008000 0%, #F5F5F5 100%, #751A12 100%);
+			background: linear-gradient(360deg, rgba(255, 121, 49, 0) 0%, #57a72f 39%, #32CD32 100%);
 			// padding: 0 30rpx;
 
 			.user-card {

@@ -31,7 +31,7 @@
 				//"navigationBarTitleText": "个人中心",
 				// #ifdef MP || APP-PLUS
 				"navigationBarTextStyle": "black",
-				"navigationBarBackgroundColor": "#E93323",
+				"navigationBarBackgroundColor": "#32CD32",
 				// #endif
 				"app-plus": {
 					// #ifdef APP-PLUS
@@ -51,7 +51,7 @@
 		{
 			"path": "pages/goods_cate/goods_cate",
 			"style": {
-				"navigationBarBackgroundColor": "#E93323",
+				"navigationBarBackgroundColor": "#32CD32",
 				//"navigationBarTitleText": "商品分类",
 				"app-plus": {
 					// #ifdef APP-PLUS
@@ -602,7 +602,7 @@
 					"path": "login/index",
 					"style": {
 						"navigationBarTitleText": "登录",
-						"navigationBarBackgroundColor": "#e93323",
+						"navigationBarBackgroundColor": "#32CD32",
 								"app-plus": {
 									// #ifdef APP-PLUS
 									"titleNView": {

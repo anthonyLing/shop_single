@@ -967,7 +967,7 @@
 			top: 0;
 			z-index: 200000;
 			width: 100%;
-			background-color: #008000;
+			background-color: #32CD32;
 			padding: 28rpx 30rpx;
 
 			.serch-wrapper {
@@ -1025,7 +1025,7 @@
 			/* #ifdef H5||APP */
 			padding-bottom: 20rpx;
 			/* #endif */
-			background-color: $theme-color;
+			background-color: #32CD32;
 
 			.serch-wrapper {
 				height: 100%;
@@ -1376,7 +1376,7 @@
 		/* #endif */
 		width: 100%;
 		height: 304rpx;
-		background: linear-gradient(180deg, #008000 0%, #F5F5F5 100%, #751A12 100%);
+		background: linear-gradient(180deg, #32CD32 0%, #F5F5F5 100%, #751A12 100%);
 		// border-radius: 0 0 30rpx 30rpx;
 
 

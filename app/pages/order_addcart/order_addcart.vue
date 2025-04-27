@@ -913,7 +913,7 @@
 		left: 0;
 		width: 100%;
 		box-sizing: border-box;
-		background-color: $theme-color;
+		background-color: #32CD32;
 		z-index: 5;
 		top: 0;
 

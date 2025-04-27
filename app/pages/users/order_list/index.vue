@@ -149,12 +149,12 @@
 				orderStatus: 0, //订单状态
 				page: 1,
 				limit: 20,
-				payMode: [{
+				payMode: [/*{
 						name: "微信支付",
 						icon: "icon-weixinzhifu",
 						value: 'weixin',
 						title: '微信快捷支付'
-					},
+					},*/
 					{
 						name: "余额支付",
 						icon: "icon-yuezhifu",
@@ -384,7 +384,9 @@
 	.my-order .header .picTxt {
 		height: 190rpx;
 	}
-
+	.bg-color{
+		background-color: #32CD32 !important
+	}
 	.my-order .header .picTxt .text {
 		color: rgba(255, 255, 255, 0.8);
 		font-size: 26rpx;

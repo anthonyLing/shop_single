@@ -1,7 +1,7 @@
 {
-    "name" : "CRMEB Java 商城",
-    "appid" : "__UNI__E0D9AB1",
-    "description" : "CRMEB Java 商城",
+    "name" : "餐商优品",
+    "appid" : "__UNI__D935632",
+    "description" : "餐商优品",
     "versionName" : "1.0.0",
     "versionCode" : 1001,
     "transformPx" : false,
@@ -122,7 +122,7 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "111111",
+        "appid" : "wx72a0e9a20f3c82f7",
         "setting" : {
             "urlCheck" : true,
             "minified" : true,

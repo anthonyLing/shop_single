@@ -670,12 +670,12 @@
 				isGoodsReturn: false, //是否为退款订单
 				status: {}, //订单底部按钮状态
 				isClose: false,
-				payMode: [{
+				payMode: [/*{
 						name: "微信支付",
 						icon: "icon-weixinzhifu",
 						value: 'weixin',
 						title: '微信快捷支付'
-					},
+					},*/
 					{
 						name: "余额支付",
 						icon: "icon-yuezhifu",

@@ -8,7 +8,7 @@
 // | Author: CRMEB Team <admin@crmeb.com>
 // +----------------------------------------------------------------------
 //移动端商城API
-let domain = 'http://127.0.0.1:8081'
+let domain = 'http://14.103.242.24:20001'
 
 module.exports = {
 	// 请求域名 格式： https://您的域名
