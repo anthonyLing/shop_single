@@ -97,16 +97,16 @@
 				<orderGoods :evaluate='evaluate' :productType="orderInfo.type" :orderId="order_id" :ids="id" :uniId="uniId" :cartInfo="cartInfo"
 					:jump="true"></orderGoods>
 				<!-- #ifndef MP -->
-				<div class="goodCall borRadius14" @click="kefuClick">
+				<!--<div class="goodCall borRadius14" @click="kefuClick">
 					<span class="iconfont icon-kefu"></span><span>联系客服</span>
-				</div>
+				</div>-->
 				<!-- #endif -->
 				<!-- #ifdef MP -->
-				<div class="goodCall borRadius14">
+				<!-- <div class="goodCall borRadius14">
 					<button open-type='contact' hover-class='none'>
 						<span class="iconfont icon-kefu"></span><span>联系客服</span>
 					</button>
-				</div>
+				</div>-->
 				<!-- #endif -->
 			</view>
 

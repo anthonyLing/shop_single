@@ -70,16 +70,16 @@
 			</scroll-view>
 			<view class='footer acea-row row-between-wrapper'>
 				<!-- #ifdef MP -->
-				<button open-type="contact" hover-class='none' class='item'>
+				<!-- <button open-type="contact" hover-class='none' class='item'>
 					<view class='iconfont icon-kefu'></view>
 					<view>客服</view>
-				</button>
+				</button>-->
 				<!-- #endif -->
 				<!-- #ifndef MP -->
-				<navigator hover-class="none" class="item" @click="kefuClick">
+				<!--<navigator hover-class="none" class="item" @click="kefuClick">
 					<view class="iconfont icon-kefu"></view>
 					<view>客服</view>
-				</navigator>
+				</navigator>-->
 				<!-- #endif -->
 				<view @tap='setCollect' class='item'>
 					<view class='iconfont icon-shoucang1' v-if="userCollect"></view>
@@ -132,10 +132,10 @@
 				<view class="">发送给朋友</view>
 			</button>
 			<!-- #endif -->
-			<button class="item" hover-class='none' @tap="goPoster">
+			<!-- <button class="item" hover-class='none' @tap="goPoster">
 				<view class="iconfont icon-haibao"></view>
 				<view class="">生成海报</view>
-			</button>
+			</button>-->
 		</view>
 		<view class="mask"  v-if="posters" @click="closePosters"></view>
 		<view class="mask"  v-if="canvasStatus"  @click="listenerActionClose"></view>
